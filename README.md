@@ -2,20 +2,12 @@
 
 # Why-Agent: High-Assurance LLM Guardrails
 
-[](https://opensource.org/licenses/Apache-2.0)
-[](https://www.python.org/downloads/)
-([https://img.shields.io/badge/docker-required-blue.svg](https://www.google.com/search?q=https://img.shields.io/badge/docker-required-blue.svg))]([https://www.docker.com/](https://www.docker.com/))
-[](https://www.google.com/search?q=%5Bhttps://microservices.io/patterns/apigateway.html%5D(https://microservices.io/patterns/apigateway.html))
-([https://img.shields.io/badge/Status-Beta-yellow](https://www.google.com/search?q=https://img.shields.io/badge/Status-Beta-yellow))]([https://github.com/why-shanth/why-agent](https://github.com/why-shanth/why-agent))
-
 > **The "Airbag" for Generative AI.** A production-ready, sidecar-based observability and security gateway that decouples heavy ML guardrails from your main application logic.
 
 ---
 
 ## 📖 Table of Contents
 
-* [Architecture & Philosophy](https://www.google.com/search?q=%23-architecture--philosophy)
-* [Key Features](https://www.google.com/search?q=%23-key-features)
 -(#-prerequisites--resource-floor)
 -(#-quick-start)
 -(#-development-workflow)
@@ -131,11 +123,7 @@ curl -X POST http://localhost:8000/analyze \
 
 ### Using Cursor AI
 
-This repository includes a `.cursorrules` file optimized for this architecture. When using Cursor:
-
-1. Open the project root.
-2. Cursor will automatically understand that `src/sidecar` uses different dependencies than `src/app`.
-3. **Rule:** Never ask Cursor to import `langkit` in the `src/app` directory.
+1. **Rule:** Never ask Cursor to import `langkit` in the `src/app` directory.
 
 ### Managing Dependencies
 
