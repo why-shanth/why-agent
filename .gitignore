@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+
+# Poetry
+.cache/pypoetry/
+.python-version
+
+# Test and coverage artifacts
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.hypothesis/
+
+# Logs
+*.log
+
+# Docker-related
+docker-compose.override.yml
+Dockerfile.local
+docker-data/
+
+# Environment & secrets
+.env
+.env.*
+*.secret
+
+# Editors & IDEs
+.vscode/
+.idea/
+.history/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+

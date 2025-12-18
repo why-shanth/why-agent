@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sidecar"
+version = "0.1.0"
+description = "Guardrail sidecar engine for heavy ML tasks"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+fastapi = "*"
+uvicorn = { version = "*", extras = ["standard"] }
+whylogs = { version = "*", extras = ["whylabs"] }
+langkit = { version = "*", extras = ["all"] }
+presidio-analyzer = "*"
+numpy = "<2.0.0"
+pydantic = "<2.0.0"
+opentelemetry-api = "*"
+opentelemetry-sdk = "*"
+opentelemetry-instrumentation-fastapi = "*"
+opentelemetry-instrumentation-logging = "*"
+opentelemetry-exporter-prometheus = "*"
+prometheus-client = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
